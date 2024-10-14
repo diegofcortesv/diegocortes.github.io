@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --color-background: #eff9ff;
+    --color-text: #253a44;
+    --color-accent: #84949c;
+    --color-secondary: #848c9c;
+    --color-tertiary: #3c545c;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: var(--color-tertiary);
+    color: var(--color-background);
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: var(--color-background);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+h1, h2, h3 {
+    color: var(--color-tertiary);
+}
+
+a {
+    color: var(--color-tertiary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.story-list article {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--color-accent);
+    padding-bottom: 1rem;
+}
+
+.story-list h2 {
+    margin-bottom: 0.5rem;
+}
+
+.story-list p {
+    color: var(--color-secondary);
+}
+
+footer {
+    background-color: var(--color-tertiary);
+    color: var(--color-background);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
