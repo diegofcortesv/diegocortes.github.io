@@ -92,3 +92,95 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+.narrador {
+    font-family: 'Playfair Display', serif;
+    color: #253a44;
+}
+
+.sonido {
+    font-family: 'Arial', sans-serif;
+    color: #84949c;
+    font-weight: bold;
+}
+
+.cancion {
+    font-family: 'Georgia', serif;
+    color: #3c545c;
+    font-style: italic;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #84949c;
+    margin-top: 10px;
+}
+
+.he-she {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.it {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.diego {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.el-diego {
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.amigo {
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+/* Estilos para la imagen */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #84949c;
+    margin-top: 10px;
+}
+
+.ia-narrador {
+    font-family: 'Courier New', Courier, monospace;
+    color: #253a44;
+}
+
+/* Estilos para la imagen */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #84949c;
+    margin-top: 10px;
+}

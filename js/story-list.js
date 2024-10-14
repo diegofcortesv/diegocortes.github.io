@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const stories = [
-        { title: "Quiero", date: "2024-04-26", file: "2024-04-26-quiero.md" },
-        { title: "El Sutil Sonar del Claxon", date: "2023-09-03", file: "2023-09-03-el-sutil-sonar-del-claxon.md" },
-        { title: "El Principio", date: "2023-04-15", file: "2023-04-15-el-principio.md" }
+        { title: "Quiero", date: "2024-04-26", file: "2024-04-26-quiero.html" },
+        { title: "El Sutil Sonar del Claxon", date: "2023-09-03", file: "2023-09-03-el-sutil-sonar-del-claxon.html" },
+        { title: "El Principio", date: "2023-04-15", file: "2023-04-15-el-principio.html" }
     ];
 
     const storyList = document.getElementById('story-list');
