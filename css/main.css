@@ -184,3 +184,12 @@ figcaption {
     color: #84949c;
     margin-top: 10px;
 }
+
+.logo-title {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 50px;  /* ajusta según el tamaño de tu logo */
+    margin-right: 10px;
+  }
