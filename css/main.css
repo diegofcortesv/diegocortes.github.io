@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    background-color: var(--color-tertiary);
+    background-color: var(--color-text);
     color: var(--color-background);
     padding: 1rem 0;
 }
@@ -110,6 +110,7 @@ footer {
     font-style: italic;
 }
 
+/* Estilos para figuras */
 figure {
     text-align: center;
     margin: 20px 0;
@@ -146,50 +147,28 @@ figcaption {
     font-family: 'Helvetica', Arial, sans-serif;
 }
 
-/* Estilos para la imagen */
-figure {
-    text-align: center;
-    margin: 20px 0;
-}
-
-figure img {
-    max-width: 100%;
-    height: auto;
-}
-
-figcaption {
-    font-style: italic;
-    color: #84949c;
-    margin-top: 10px;
-}
-
 .ia-narrador {
     font-family: 'Courier New', Courier, monospace;
     color: #253a44;
-}
-
-/* Estilos para la imagen */
-figure {
-    text-align: center;
-    margin: 20px 0;
-}
-
-figure img {
-    max-width: 100%;
-    height: auto;
-}
-
-figcaption {
-    font-style: italic;
-    color: #84949c;
-    margin-top: 10px;
 }
 
 .logo-title {
     display: flex;
     align-items: center;
   }
-  .logo {
-    width: 50px;  /* ajusta según el tamaño de tu logo */
+  
+.logo {
+    width: 50px; 
     margin-right: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: var(--color-accent);
+    color: var(--color-background);
+  }
+  
+  .featured-content, .about-preview, .recent-posts {
+    margin: 40px 0;
   }
